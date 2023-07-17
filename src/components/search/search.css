@@ -1,0 +1,25 @@
+.searchcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-wrapper {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &-input {
+      flex: 3;
+      border: solid 1px red;
+      padding: 10px;
+    }
+
+    &-button {
+      flex: 1;
+      border: solid 1px red;
+      padding: 10px;
+    }
+  }
+}
