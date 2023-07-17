@@ -1,0 +1,29 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-container {
+    height: 80%;
+    width: 60%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+
+    &-search {
+      flex: 1;
+      border: solid 1px red;
+    }
+
+    &-status {
+      flex: 2;
+      border: solid 1px red;
+    }
+
+    &-pastlaunches {
+      flex: 2;
+      border: solid 1px red;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.App {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  &-headline {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &-code {
+    padding: 0 0.25em;
+    background: #e4e4e4;
+  }
+}
