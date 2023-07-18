@@ -1,3 +1,16 @@
-.launch{
+.launch {
+  flex: 1;
+  border: solid 1px white;
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  gap:25px;
+
+  &-name{
+   
+  }
+
+  &-id{
     
+  }
 }

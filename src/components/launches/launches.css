@@ -1,3 +1,15 @@
-.launches{
-    
+.launches {
+  border: solid 1px white;
+  margin: 10px 0 0 0;
+
+  &-heading {
+  }
+
+  &-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid 1px white;
+    gap:10px;
+  }
 }

@@ -13,11 +13,14 @@ export default function Success() {
           </div>
           <div className="success-container-launchname-indicator"></div>
         </div>
-        <div className="success-container-gap"></div>
         <div className="success-container-time">
           <div className="success-container-time-watchblock">
-            <div className="success-container-time-watchblock-label">Elapsed time since launch</div>
-            <div className="success-container-time-watchblock-timer">00:00:00</div>
+            <div className="success-container-time-watchblock-label">
+              Elapsed time since launch
+            </div>
+            <div className="success-container-time-watchblock-timer">
+              00:00:00
+            </div>
           </div>
           <div className="success-container-time-id">id</div>
         </div>
