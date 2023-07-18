@@ -9,7 +9,9 @@ export default function Home() {
         <div className='home-container-search'>
            <Search/>
         </div>
-        <div className='home-container-status'></div>
+        <div className='home-container-status'>
+          
+        </div>
         <div className='home-container-pastlaunches'></div>
       </div>
     </div>
