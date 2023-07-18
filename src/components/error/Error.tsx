@@ -3,6 +3,6 @@ import "./error.css";
 
 export default function Error() {
   return (
-    <div className='error'>Error</div>
+    <div className='error'>Sorry, Search result isn't valid.</div>
   )
 }

@@ -13,6 +13,7 @@ export default function Home() {
           <Search />
         </div>
         <div className="home-container-status">
+          <span className="success-heading">Search result</span>
           <Success />
         </div>
         <div className="home-container-pastlaunches">

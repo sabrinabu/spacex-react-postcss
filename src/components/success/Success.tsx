@@ -5,7 +5,6 @@ import "./success.css";
 export default function Success() {
   return (
     <div className="success">
-      <span className="success-heading">Search result</span>
       <div className="success-container">
         <div className="success-container-launchname">
           <div className="success-container-launchname-name">
