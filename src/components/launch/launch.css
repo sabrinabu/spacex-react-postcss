@@ -1,17 +1,15 @@
 .launch {
   flex: 1;
   border: solid 1px white;
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-  gap:25px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 25px;
   background-color: #f0f2f5;
 
-  &-name{
-   
+  &-name {
   }
 
-  &-id{
-    
+  &-id {
   }
 }

@@ -2,15 +2,18 @@ import React from "react";
 
 import "./success.css";
 
-export default function Success() {
+export default function Success({ launch }) {
   return (
     <div className="success">
       <div className="success-container">
         <div className="success-container-launchname">
           <div className="success-container-launchname-name">
-            Name of the launch
+            {launch.name ? launch.name : "Name of the launch"}
           </div>
-          <div className="success-container-launchname-indicator"></div>
+          <div
+            className="success-container-launchname-indicator"
+            style={{ backgroundColor: launch.success ? "green" : "red" }}
+          ></div>
         </div>
         <div className="success-container-time">
           <div className="success-container-time-watchblock">
