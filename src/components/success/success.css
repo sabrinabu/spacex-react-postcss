@@ -1,6 +1,5 @@
 .success {
   padding: 20px 0 0 0;
-  border: solid 2px white;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@
 
     &-launchname {
       height: 100%;
-      border: solid 1px white;
       display: flex;
       position: relative;
 
@@ -36,7 +34,6 @@
 
     &-time {
       height: 100%;
-      border: solid 1px white;
       display: flex;
       flex-wrap: wrap;
 
@@ -44,10 +41,8 @@
         display: flex;
         flex-direction: column;
         flex: 9;
-        border: solid 1px white;
         &-label {
           flex: 1;
-          border: solid 1px white;
         }
         &-timer {
           flex: 1;
@@ -55,8 +50,69 @@
       }
       &-id {
         flex: 1;
-        border: solid 1px white;
         align-self: flex-end;
+        font-size:25px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .success {
+    padding: 20px 0 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    &-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      height: 100%;
+      padding: 10px;
+      background-color: #f0f2f5;
+  
+      &-launchname {
+        height: 100%;
+        display: flex;
+        position: relative;
+  
+        &-name {
+          flex: 9;
+        }
+        &-indicator {
+          flex: 1;
+          background-color: green;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          position: absolute;
+          top: 0px;
+          right: 10px;
+        }
+      }
+  
+      &-time {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+  
+        &-watchblock {
+          display: flex;
+          flex-direction: column;
+          flex: 9;
+          &-label {
+            flex: 1;
+          }
+          &-timer {
+            flex: 1;
+          }
+        }
+        &-id {
+          flex: 1;
+          align-self: flex-end;
+          font-size:17px;
+        }
       }
     }
   }

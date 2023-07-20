@@ -5,7 +5,6 @@ import useTime from "../../hooks/useTime";
 
 export default function Success({ launch }) {
   const { days, hours, minutes, seconds } = useTime(launch.date_utc);
-  
 
   return (
     <div className="success">
@@ -28,11 +27,17 @@ export default function Success({ launch }) {
             </div>
             <div className="success-container-time-watchblock-timer">
               {launch.date_utc
-                ? days + ":" + ("0" + hours).slice(-2) + ":" + ("0" + minutes).slice(-2) + ":" + ("0" + seconds).slice(-2)
+                ? days +
+                  ":" +
+                  ("0" + hours).slice(-2) +
+                  ":" +
+                  ("0" + minutes).slice(-2) +
+                  ":" +
+                  ("0" + seconds).slice(-2)
                 : "00:00:00"}
             </div>
           </div>
-          <div className="success-container-time-id">id:{launch.id}</div>
+          <span className="success-container-time-id">id:{launch.id}</span>
         </div>
       </div>
     </div>

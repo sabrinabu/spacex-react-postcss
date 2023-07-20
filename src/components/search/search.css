@@ -13,14 +13,45 @@
 
     &-input {
       flex: 3;
-      border: solid 1px red;
       padding: 10px;
+      border-style:none;
+      text-align: center; 
+      background-color: #f0f2f5;
     }
 
     &-button {
       flex: 1;
-      border: solid 1px red;
       padding: 10px;
+      border-style:none;
+      background-color: #f0f2f5;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .searchcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-wrapper {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+
+      &-input {
+        flex: 3;
+        padding: 10px;
+        
+      }
+
+      &-button {
+        flex: 1;
+        padding: 10px;
+      }
     }
   }
 }

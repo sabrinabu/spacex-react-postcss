@@ -11,11 +11,9 @@
     flex-direction: column;
 
     &-search {
-      border: solid 1px red;
     }
 
     &-status {
-      border: solid 1px green;
       display: flex;
       flex-direction: column;
       padding: 20px 0 0 0;
@@ -26,7 +24,6 @@
 
     &-pastlaunches {
       padding: 20px 0 0 0;
-      border: solid 1px green;
     }
   }
 }

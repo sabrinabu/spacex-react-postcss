@@ -16,7 +16,7 @@ export default function Search({ fetchapi }) {
           className="searchcontainer-wrapper-input"
           type="text"
           value={searchId}
-          placeholder="hello"
+          placeholder="Searchbar"
           onChange={(e) => setSearchId(e.target.value)}
         />
         <button
