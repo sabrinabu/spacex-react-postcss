@@ -24,7 +24,7 @@ export default function Launches() {
     <div className="launches">
       <span className="launches-heading">Past Launches</span>
       <div className="launches-parent">{latestLaunches.map((launch)=>(
-           <Launch launch={launch}/>
+           <Launch launch={launch} key={launch.id}/>
       ))}
       
         
